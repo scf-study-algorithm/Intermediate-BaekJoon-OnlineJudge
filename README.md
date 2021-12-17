@@ -1,1 +1,1 @@
-# [Intermediate]BaekJoon-OnlineJudge
+# BaekJoon-OnlineJudge
