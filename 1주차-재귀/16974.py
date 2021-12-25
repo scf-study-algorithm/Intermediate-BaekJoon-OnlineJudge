@@ -19,7 +19,7 @@ def burger(n, x):
         ans += p
         x -= (cnt-1)//2
     
-    burger(n-1, x)
+    burger(n-1, x) 
     
     
 n, x = map(int, input().split())
