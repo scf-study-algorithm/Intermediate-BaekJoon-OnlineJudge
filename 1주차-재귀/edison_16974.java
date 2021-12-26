@@ -52,7 +52,7 @@ public class Main {
         else if(X <= 1+h[N-1]+1+h[N-1]){
             return p[N-1]+1+sol(N-1,X-(1+h[N-1]+1));
         }
-        else {//x가 현재 레밸 재료수의 크기와 같다면 현재 레밸의 패티수를 반환
+        else {//x가 현재 레밸 재료수의 크기와 같다면 현재 레밸의 패티수를 반환 a
             return p[N-1]+1+p[N-1];
         }
     }
